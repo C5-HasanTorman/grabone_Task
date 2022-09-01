@@ -1,0 +1,24 @@
+.send-box {
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.title-send {
+  color: #01b2ee;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.inner-con {
+  display: flex;
+  width: 100%;
+}
+.mb-3 {
+  width: 80%;
+}
+.head-send {
+  width: 75%;
+}
+#button-addon2 {
+  background-color: #01b2ee;
+}

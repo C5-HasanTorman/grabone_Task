@@ -109,7 +109,7 @@ const MainTop = () => {
                       alt="..."
                     />
                     <div class="card-body">
-                    <header className="top-card">
+                      <header className="top-card">
                         <h5 class="card-text">BasicCare 35-point Service</h5>
                         <p>
                           <span className="name-Stores">
