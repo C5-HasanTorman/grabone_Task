@@ -15,10 +15,20 @@
   text-decoration: none;
   margin: 0 0 2px 18px;
 }
-.half-head{
+.half-head {
   width: 50%;
+}
+
+.nav-link {
+  color: white;
+}
+.btn-secondary{
 
 }
-.dropdown-toggle1{
+.btn-secondary{
+  background-color: #01b2ee;
+}
+.nav-it{
   display: flex;
+
 }
