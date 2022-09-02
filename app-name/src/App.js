@@ -7,6 +7,8 @@ import Deals from "./Component/MainPage/Deals";
 import Collections from "./Component/MainPage/Collections";
 import Escapes from "./Component/MainPage/Escapes";
 import Activities from "./Component/MainPage/Activities";
+import Store from "./Component/MainPage/Store";
+import Footer from "./Component/Footer";
 function App() {
   return (
     <div class="container-fluid">
@@ -18,6 +20,8 @@ function App() {
       <Collections />
       <Escapes />
       <Activities />
+      <Store/>
+      <Footer/>
     </div>
   );
 }
