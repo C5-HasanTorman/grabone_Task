@@ -1,5 +1,5 @@
 import "./App.css";
-import Navbar from "./Component/Navbar";
+import Nav from "./Component/Nav";
 import ImgHead from "./Component/ImgHead";
 import MainTop from "./Component/MainPage/MainTop";
 import SendBox from "./Component/MainPage/SendBox";
@@ -12,7 +12,7 @@ import Footer from "./Component/Footer";
 function App() {
   return (
     <div class="container-fluid">
-      <Navbar />
+      <Nav />
       <ImgHead />
       <MainTop />
       <SendBox />
