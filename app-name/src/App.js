@@ -11,7 +11,7 @@ import Store from "./Component/MainPage/Store";
 import Footer from "./Component/Footer";
 function App() {
   return (
-    <div class="container-fluid">
+    <div class="container-fluid App">
       <Nav />
       <ImgHead />
       <MainTop />

@@ -6,11 +6,10 @@ const MainTop = () => {
     <div className="container top-level">
       <section className="discver-mid">
         <div class="container-fluid">
-          <div class="row main ">
-            <div class="col col-lg-3">
+          <div class="main ">
+            <div class="colu-1">
               <aside>
                 <header className="title-top">Discover</header>
-                <hr />
                 <ul class="nav flex-column">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">
@@ -19,58 +18,58 @@ const MainTop = () => {
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">
-                      <span>Featured Auckland deals</span>
+                      <span>Collections</span>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">
-                      <span>Featured Auckland deals</span>
+                      <span>Escapes</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <span>Picked for You</span>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link ">
-                      <span>Featured Auckland deals</span>
+                      <span>Activities, Events & Outdoors</span>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">
-                      <span>Featured Auckland deals</span>
+                      <span>Store</span>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">
-                      <span>Featured Auckland deals</span>
+                      <span>Restaurants, Bars, Cafes</span>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">
-                      <span>Featured Auckland deals</span>
+                      <span>Beauty, Massage & Spa</span>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link ">
-                      <span>Featured Auckland deals</span>
+                      <span>House & Garden</span>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">
-                      <span>Featured Auckland deals</span>
+                      <span>Fitness & Sports</span>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">
-                      <span>Featured Auckland deals</span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">
-                      <span>Featured Auckland deals</span>
+                      <span>Automotive</span>
                     </a>
                   </li>
                 </ul>
               </aside>{" "}
             </div>
-            <div class="col-md-4">
+            <div class="colu-2 photo-1">
               <article>
                 {" "}
                 <div class="col">
@@ -98,7 +97,7 @@ const MainTop = () => {
                 </div>
               </article>
             </div>
-            <div class="col col-lg-4">
+            <div class="colu-3 photo-2">
               <article>
                 {" "}
                 <div class="col">

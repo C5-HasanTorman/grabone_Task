@@ -17,6 +17,7 @@ aside {
   font-size: 1.8rem;
   font-weight: 700;
   opacity: 0.9;
+  margin-bottom: 13px;
 }
 
 .card-img-top {
@@ -27,7 +28,9 @@ aside {
   width: 100%;
 }
 .main {
-  width: 112%;
+  display: grid;
+  grid-template-columns: 20% 39% 39%;
+  gap: 15px;
 }
 .top-card {
   display: flex;
@@ -50,4 +53,32 @@ aside {
 .from-word {
   margin: 0;
   margin-top: 16px;
+}
+.flex-column {
+  border-top: 1px solid #aaa;
+  padding-top: 10px;
+  height: 100%;
+  gap: 12px;
+}
+
+@media only screen and (max-width: 1160px) {
+  aside {
+    display: none;
+  }
+  .main {
+    display: grid;
+    grid-template-columns: 0% 50% 50%;
+    gap: 15px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  aside {
+    display: none;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
 }

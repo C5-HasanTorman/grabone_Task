@@ -3,7 +3,7 @@ import "./style.css";
 
 const Nav = () => {
   return (
-    <header>
+    <header className="container-fluid">
       <nav class="navbar navbar-expand-lg n1">
         <div class="container nav-top">
           <div className="half-head">
@@ -262,7 +262,6 @@ const Nav = () => {
               </li>
             </ul>
             <form class="d-flex" role="search">
-
               <input
                 class="form-control me-2"
                 type="search"
