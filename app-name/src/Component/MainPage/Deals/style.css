@@ -10,7 +10,9 @@
   width: 100%;
 }
 .deal-title {
-  font-family:  MuseoSans,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;;
+  font-family: MuseoSans, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica,
+    Arial, sans-serif;
   font-size: 2rem;
   font-weight: 700;
   opacity: 0.8;
@@ -31,4 +33,24 @@
 .deal-grid {
   border: none;
   border-bottom: 0.5px solid #aaa;
+}
+
+@media only screen and (max-width: 1160px) {
+  .deal-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .activities-con{
+  height: auto;
+}
+}
+
+@media only screen and (max-width: 650) {
+  .deal-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .activities-con{
+    height: auto;
+  }
 }

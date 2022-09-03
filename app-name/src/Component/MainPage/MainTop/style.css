@@ -55,10 +55,27 @@ aside {
   margin-top: 16px;
 }
 .flex-column {
-  border-top: 1px solid #aaa;
+  border-top: 1px solid rgb(212, 208, 208);
   padding-top: 10px;
   height: 100%;
   gap: 12px;
+}
+.card {
+  border: none;
+  border-bottom: 1px solid rgb(212, 208, 208);
+}
+
+.card-img-top:hover {
+  background-color: linear-gradient(
+    rgba(1, 178, 238, 0.7),
+    rgba(1, 178, 238, 0.7)
+  );
+}
+.link-img {
+  text-decoration: none;
+}
+h5 {
+  color: black;
 }
 
 @media only screen and (max-width: 1160px) {

@@ -73,7 +73,9 @@ const MainTop = () => {
               <article>
                 {" "}
                 <div class="col">
+            
                   <div class="card">
+                    <a className="link-img" href="/activities-events-outdoors/movies/p/monterey-cinemas-takapuna-22">
                     <img
                       src="//main-cdn.grabone.co.nz/goimage/495x343/aeb84584eaa6c41eed7337bd45f4ad22e01cdf99.jpg"
                       alt="..."
@@ -93,6 +95,7 @@ const MainTop = () => {
                         <span className="price"> $195</span>
                       </footer>
                     </div>
+                    </a>
                   </div>{" "}
                 </div>
               </article>
@@ -102,6 +105,7 @@ const MainTop = () => {
                 {" "}
                 <div class="col">
                   <div class="card">
+                    <a className="link-img" href="/activities-events-outdoors/movies/p/monterey-cinemas-takapuna-22">
                     <img
                       src="//main-cdn.grabone.co.nz/goimage/495x343/ef1b7c64a62bb398468591237772ddfb235aafc5.jpg"
                       class="card-img-top"
@@ -121,6 +125,7 @@ const MainTop = () => {
                         <span className="price"> $195</span>
                       </footer>
                     </div>
+                    </a>
                   </div>{" "}
                 </div>
               </article>

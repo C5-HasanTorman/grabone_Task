@@ -1,3 +1,24 @@
 .escapes-con{
     margin-top: 70px;
 }
+
+@media only screen and (max-width: 1160px) {
+    .deal-grid{
+      display: grid;
+      grid-template-columns: 50% 50%;
+    
+    }
+    /* .deal-sec{
+      height: auto;
+    } */
+    }
+    @media only screen and (max-width: 650) {
+        .deal-grid {
+          display: flex;
+          flex-direction: column;
+        }
+        .activities-con{
+          height: auto;
+        }
+      }
+      

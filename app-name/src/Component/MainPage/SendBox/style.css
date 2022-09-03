@@ -21,4 +21,14 @@
 }
 #button-addon2 {
   background-color: #01b2ee;
+  color: white;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1280px) {
+  .inner-con {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 }

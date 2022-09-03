@@ -17,7 +17,7 @@ const Deals = () => {
           </Button>
         </header>
         <article className="deal-card">
-          <Row>
+          <Row className="deal-grid">
             <Col>
               {" "}
               <Card className="deal-grid">
