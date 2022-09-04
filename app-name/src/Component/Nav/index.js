@@ -242,15 +242,13 @@ const Nav = () => {
               </li>
             </ul>
             <form class="d-flex" role="search">
+              <i class="bi bi-search fa-3x"></i>
               <input
                 class="form-control me-2"
                 type="search"
                 placeholder="Search GrabOne"
                 aria-label="Search"
               />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
             </form>
           </div>
         </div>

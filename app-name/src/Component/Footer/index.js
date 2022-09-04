@@ -10,8 +10,8 @@ import InputGroup from "react-bootstrap/InputGroup";
 
 const Footer = () => {
   return (
-    <div className="container footer-con">
-      <footer className="footer">
+    <div className=".container footer-con">
+      <footer className="container-fluid footer">
         <div className="main-footer">
           <Container>
             <Row>
@@ -21,19 +21,19 @@ const Footer = () => {
                   <h6>Follow us on</h6>
                   <div className="icons">
                     <a href="https://www.facebook.com/GrabOne" target="_blank">
-                      <i class="bi bi-facebook"></i>
+                      <i class="bi bi-facebook icons-so"></i>
                     </a>{" "}
                     <a href="https://twitter.com/grab_one" target="_blank">
-                      <i class="bi bi-twitter"></i>
+                      <i class="bi bi-twitter icons-so"></i>
                     </a>{" "}
                     <a
                       href="https://www.instagram.com/grabone_nz/"
                       target="_blank"
                     >
-                      <i class="bi bi-instagram"></i>
+                      <i class="bi bi-instagram icons-so"></i>
                     </a>{" "}
                     <a href="https://www.youtube.com/grabonenz" target="_blank">
-                      <i class="bi bi-youtube"></i>
+                      <i class="bi bi-youtube icons-so"></i>
                     </a>{" "}
                   </div>
                   <h6 className="Get-app">Get app exclusive deals</h6>
@@ -85,6 +85,7 @@ const Footer = () => {
                   deals, tailored for you.
                 </p>
                 <InputGroup className="mb-3">
+                <i class="bi bi-envelope em"></i>
                   <Form.Control
                     placeholder="Enter email address"
                     aria-label="Recipient's username"

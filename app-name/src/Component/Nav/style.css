@@ -12,6 +12,7 @@
   position: sticky;
   top: 60px;
 }
+
 .nav-2 {
   gap: 35px;
 }
@@ -107,6 +108,20 @@
 .dropdown-toggle{
   display: flex;
   align-items: center;
+}
+.d-flex{
+  display: flex;
+  align-items: center;
+  border: 1px solid #dce3ed;
+  padding-left: 10px;
+}
+.bi-search {
+  display: flex;
+}
+
+.me-2{
+  border: none;
+  margin-left: 10px;
 }
 @media only screen and (max-width: 1087px) {
   .link-sec {

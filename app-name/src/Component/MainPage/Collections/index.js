@@ -111,7 +111,8 @@ const Collections = () => {
                 <Card.Img
                   variant="top"
                   alt="Two-Person Boutique Dining & Movie Package incl. Tickets, Pizza, Two Choc Top Ice Creams & Two Glasses of Prosecco, Wine or Beer - Options for up to Eight People"
-                  src="https://mediacdn.grabone.co.nz/asset/WmNCBypjGB"                />
+                  src="https://mediacdn.grabone.co.nz/asset/WmNCBypjGB"
+                />
                 <Card.Body>
                   <Card.Title>
                     <header className="top-card">
@@ -153,7 +154,8 @@ const Collections = () => {
                 <Card.Img
                   variant="top"
                   alt="One-Hour Axe Throwing Experience - Option for up to Four People"
-                  src="https://mediacdn.grabone.co.nz/asset/DKqrqrT4pw"                />
+                  src="https://mediacdn.grabone.co.nz/asset/DKqrqrT4pw"
+                />
                 <Card.Body>
                   <Card.Title>
                     <header className="top-card">
