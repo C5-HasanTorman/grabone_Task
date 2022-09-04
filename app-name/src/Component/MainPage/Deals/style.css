@@ -1,7 +1,9 @@
 .deal-con {
   margin-top: 60px;
-  border-top: 1px solid #aaa;
   padding-top: 30px;
+}
+.cont {
+  border-top: 1px solid #aaa;
 }
 .deal-head {
   display: flex;
@@ -31,27 +33,34 @@
   margin-top: 30px;
 }
 .deal-grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
   border: none;
   border-bottom: 0.5px solid rgb(212, 208, 208);
-  
+}
+.img-hover {
+  z-index: -1;
+}
+.figcaption p {
+  display: none;
+}
+.figcaption p:hover {
+  display: block;
+
+  background: linear-gradient(rgba(1, 178, 238, 0.9), rgba(1, 178, 238, 0.9));
 }
 
-@media only screen and (max-width: 1160px) {
+@media only screen and (max-width: 1200px) {
   .deal-grid {
+    width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
   }
-  .activities-con{
-  height: auto;
-}
 }
 
-@media only screen and (max-width: 650) {
+@media only screen and (max-width: 650px) {
   .deal-grid {
     display: flex;
     flex-direction: column;
-  }
-  .activities-con{
-    height: auto;
   }
 }

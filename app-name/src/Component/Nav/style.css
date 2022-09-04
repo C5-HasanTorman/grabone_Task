@@ -95,6 +95,19 @@
   font-weight: 400;
   background-color: #01b2ee;
 }
+
+.show::before {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 8px;
+  margin-top: 8px;
+  color: #4f5864;
+}
+.dropdown-toggle{
+  display: flex;
+  align-items: center;
+}
 @media only screen and (max-width: 1087px) {
   .link-sec {
     display: none;

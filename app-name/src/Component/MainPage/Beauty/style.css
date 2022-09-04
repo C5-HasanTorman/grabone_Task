@@ -1,19 +1,21 @@
 .beauty-con {
     margin-top: 60px;
   }
-  
-  @media only screen and (max-width: 1160px) {
+  /* @media only screen and (min-width: 650) {
+    .cont {
+      width: 100%;
+    }
     .deal-grid {
+      width: 100%;
       display: grid;
       grid-template-columns: 50% 50%;
     }
   }
-  @media only screen and (max-width: 650) {
+  
+  @media only screen and (min-width: 530) {
     .deal-grid {
       display: flex;
       flex-direction: column;
     }
-    .beauty-con {
-      height: auto;
-    }
   }
+   */

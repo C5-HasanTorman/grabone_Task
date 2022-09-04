@@ -121,7 +121,7 @@ const Nav = () => {
                       <i class="bi bi-person heart"></i>
                       <i class="bi bi-chevron-down heart"></i>
                     </button>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu sort-drop">
                       <li>
                         <a
                           href="https://www.grabone.co.nz/my-stuff/my-account"

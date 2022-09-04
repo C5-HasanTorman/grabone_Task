@@ -1,24 +1,21 @@
-.activities-con{
-margin-top: 60px;
+.activities-con {
+  margin-top: 60px;
 }
 
-@media only screen and (max-width: 1160px) {
-    .deal-grid{
-      display: grid;
-      grid-template-columns: 50% 50%;
-    
-    }
-    /* .deal-sec{
-      height: auto;
-    } */
-    }
-    @media only screen and (max-width: 650) {
-        .deal-grid {
-          display: flex;
-          flex-direction: column;
-        }
-        .activities-con{
-          height: auto;
-        }
-      }
-      
+/* @media only screen and (min-width: 650) {
+  .cont {
+    width: 100%;
+  }
+  .deal-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media only screen and (min-width: 530) {
+  .deal-grid {
+    display: flex;
+    flex-direction: column;
+  }
+} */

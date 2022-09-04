@@ -13,57 +13,134 @@ const MainTop = () => {
                 <ul class="nav flex-column">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">
-                      <span>Featured Auckland deals</span>
+                      <div>
+                        {" "}
+                        <span>Featured Auckland deals</span>
+                      </div>
+                      <div>
+                        {" "}
+                        <span className="name-ops">25</span>
+                      </div>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">
-                      <span>Collections</span>
+                      <div>
+                        {" "}
+                        <span>Collections</span>
+                      </div>
+                      <div>
+                        {" "}
+                        <span className="name-ops">33</span>
+                      </div>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">
-                      <span>Escapes</span>
+                      <div>
+                        {" "}
+                        <span>Escapes</span>
+                      </div>
+                      <div>
+                        {" "}
+                        <span className="name-ops">20</span>
+                      </div>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">
-                      <span>Picked for You</span>
+                      <div>
+                        {" "}
+                        <span>Picked for You</span>
+                      </div>
+                      <div>
+                        {" "}
+                        <span className="name-ops">50</span>
+                      </div>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link ">
-                      <span>Activities, Events & Outdoors</span>
+                      <div>
+                        {" "}
+                        <span>Activities, Events & Outdoors</span>
+                      </div>
+                      <div>
+                        {" "}
+                        <span className="name-ops">27</span>
+                      </div>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">
-                      <span>Store</span>
+                      <div>
+                        {" "}
+                        <span>Store</span>
+                      </div>
+                      <div>
+                        {" "}
+                        <span className="name-ops">24</span>
+                      </div>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">
-                      <span>Restaurants, Bars, Cafes</span>
+                      <div>
+                        {" "}
+                        <span>Restaurants, Bars, Cafes</span>
+                      </div>
+                      <div>
+                        {" "}
+                        <span className="name-ops">20</span>
+                      </div>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">
-                      <span>Beauty, Massage & Spa</span>
+                      <div>
+                        {" "}
+                        <span>Beauty, Massage & Spa</span>
+                      </div>
+                      <div>
+                        {" "}
+                        <span className="name-ops">19</span>
+                      </div>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link ">
-                      <span>House & Garden</span>
+                      <div>
+                        {" "}
+                        <span>House & Garden</span>
+                      </div>
+                      <div>
+                        {" "}
+                        <span className="name-ops">9</span>
+                      </div>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">
-                      <span>Fitness & Sports</span>
+                      <div>
+                        {" "}
+                        <span>Fitness & Sports</span>
+                      </div>
+                      <div>
+                        {" "}
+                        <span className="name-ops">10</span>
+                      </div>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">
-                      <span>Automotive</span>
+                      <div>
+                        {" "}
+                        <span>Automotive</span>
+                      </div>
+                      <div>
+                        {" "}
+                        <span className="name-ops">12</span>
+                      </div>
                     </a>
                   </li>
                 </ul>
@@ -86,15 +163,31 @@ const MainTop = () => {
                       <div class="card-body">
                         <header className="top-card">
                           <h5 class="card-text">BasicCare 35-point Service</h5>
-                          <p>
-                            <span className="name-Stores">
-                              Honda Stores Auckland
-                            </span>
-                          </p>
+                          <div className="text-cont">
+                            <p>
+                              {" "}
+                              <span className="name-Stores">
+                                Honda Stores Auckland
+                              </span>
+                            </p>
+
+                            <p>
+                              {" "}
+                              <span className="name-ops">Auckland </span>
+                            </p>
+                          </div>
                         </header>
                         <footer className="bottom-card">
-                          <p className="from-word">from</p>
-                          <span className="price"> $195</span>
+                          <div className="text-end">
+                            <span className="name-ops">6 bought</span>
+                          </div>
+                          <div className="text-right">
+                            <p className="from-word">from</p>
+                            <div>
+                              <span className="name-ops line-th">$99</span>
+                              <span className="price"> $195</span>
+                            </div>
+                          </div>
                         </footer>
                       </div>
                     </a>
@@ -119,15 +212,31 @@ const MainTop = () => {
                       <div class="card-body">
                         <header className="top-card">
                           <h5 class="card-text">BasicCare 35-point Service</h5>
-                          <p>
-                            <span className="name-Stores">
-                              Honda Stores Auckland
-                            </span>
-                          </p>
+                          <div className="text-cont">
+                            <p>
+                              {" "}
+                              <span className="name-Stores">
+                                Honda Stores Auckland
+                              </span>
+                            </p>
+
+                            <p>
+                              {" "}
+                              <span className="name-ops">Auckland </span>
+                            </p>
+                          </div>
                         </header>
                         <footer className="bottom-card">
-                          <p className="from-word">from</p>
-                          <span className="price"> $195</span>
+                          <div className="text-end">
+                            <span className="name-ops">6 bought</span>
+                          </div>
+                          <div className="text-right">
+                            <p className="from-word">from</p>
+                            <div>
+                              <span className="name-ops line-th">$99</span>
+                              <span className="price"> $195</span>
+                            </div>
+                          </div>
                         </footer>
                       </div>
                     </a>
