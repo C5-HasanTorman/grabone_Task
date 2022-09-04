@@ -12,6 +12,7 @@ import Restaurants from "./Component/MainPage/Restaurants";
 import Beauty from "./Component/MainPage/Beauty";
 import House from "./Component/MainPage/House";
 import Fitness from "./Component/MainPage/Fitness";
+import Automotive from "./Component/MainPage/Automotive";
 import Footer from "./Component/Footer";
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <Beauty/>
       <House/>
       <Fitness/>
+      <Automotive/>
       <Footer/>
     </div>
   );
