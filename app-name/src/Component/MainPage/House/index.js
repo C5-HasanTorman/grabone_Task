@@ -25,7 +25,7 @@ const House = () => {
                   variant="top"
                   src="//main-cdn.grabone.co.nz/goimage/325x225/4a3b946a764b874bd63c5daf4c8658bc4eec69c4.jpg"
                 />
-          <Card.Body>
+                <Card.Body>
                   <Card.Title>
                     <header className="top-card">
                       <h5 class="card-text">BasicCare 35-point Service</h5>
@@ -52,7 +52,7 @@ const House = () => {
                   variant="top"
                   src="//main-cdn.grabone.co.nz/goimage/325x225/326577d6bf9ecafb75a55c981e195f9d27bc5deb.jpg"
                 />
-              <Card.Body>
+                <Card.Body>
                   <Card.Title>
                     <header className="top-card">
                       <h5 class="card-text">BasicCare 35-point Service</h5>
@@ -78,7 +78,7 @@ const House = () => {
                   variant="top"
                   src="//main-cdn.grabone.co.nz/goimage/325x225/b6f8982738fae0179e711a21b2d6fe6f39c44439.jpg"
                 />
-                  <Card.Body>
+                <Card.Body>
                   <Card.Title>
                     <header className="top-card">
                       <h5 class="card-text">BasicCare 35-point Service</h5>

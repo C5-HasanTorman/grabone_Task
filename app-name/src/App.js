@@ -26,13 +26,13 @@ function App() {
       <Collections />
       <Escapes />
       <Activities />
-      <Store/>
-      <Restaurants/>
-      <Beauty/>
-      <House/>
-      <Fitness/>
-      <Automotive/>
-      <Footer/>
+      <Store />
+      <Restaurants />
+      <Beauty />
+      <House />
+      <Fitness />
+      <Automotive />
+      <Footer />
     </div>
   );
 }
