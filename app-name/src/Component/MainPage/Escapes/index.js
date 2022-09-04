@@ -10,7 +10,7 @@ const Escapes = () => {
     <div className="container escapes-con">
       <section className="deal-sec">
         <header className="deal-head">
-          <h2 className="deal-title">Featured Auckland deals </h2>
+          <h2 className="deal-title">Escapes</h2>
           <Button variant="info" className="deal-btn">
             <span>View More</span>
             <i class="bi bi-chevron-right"></i>
@@ -23,7 +23,7 @@ const Escapes = () => {
               <Card className="deal-gri">
                 <Card.Img
                   variant="top"
-                  src="//main-cdn.grabone.co.nz/goimage/325x225/3b8812ae5f8d38f9b3ae3ade3b525c9c6a70897a.jpg"
+                  src="//main-cdn.grabone.co.nz/goimage/325x225/4a3b946a764b874bd63c5daf4c8658bc4eec69c4.jpg"
                   alt="One-Hour Pool Table Game incl. Two Cans of Soft Drink or Two Heineken 0% "
                 />
                 <Card.Body>
@@ -68,7 +68,7 @@ const Escapes = () => {
                 <Card.Img
                   variant="top"
                   alt="Luxury Five-Star Auckland Stay for Two at Cordis Auckland incl. Buffet Breakfast, $50 Food & Beverage Credit, Drinks, Pool & Spa Access, Daily Parking & Late Checkout - Options to Stay in the Pinnacle Tower & Up to Three Nights with $150 Credit"
-                  src="//main-cdn.grabone.co.nz/goimage/325x225/aeb84584eaa6c41eed7337bd45f4ad22e01cdf99.jpg"
+                  src="//main-cdn.grabone.co.nz/goimage/325x225/326577d6bf9ecafb75a55c981e195f9d27bc5deb.jpg"
                 />
                 <Card.Body>
                   <Card.Title>
@@ -111,7 +111,7 @@ const Escapes = () => {
                 <Card.Img
                   variant="top"
                   alt="Two-Person Boutique Dining & Movie Package incl. Tickets, Pizza, Two Choc Top Ice Creams & Two Glasses of Prosecco, Wine or Beer - Options for up to Eight People"
-                  src="//main-cdn.grabone.co.nz/goimage/325x225/45a3bffce1d7d6e2269b487ccec9fd42807c16da.jpg"
+                  src="//main-cdn.grabone.co.nz/goimage/325x225/d78d4bff7e79786fea3f2f75727cabe38051ffda.jpg"
                 />
                 <Card.Body>
                   <Card.Title>
@@ -154,7 +154,7 @@ const Escapes = () => {
                 <Card.Img
                   variant="top"
                   alt="One-Hour Axe Throwing Experience - Option for up to Four People"
-                  src="//main-cdn.grabone.co.nz/goimage/325x225/dff22c3d041e983df8f0a3224d4b2e2698674882.png"
+                  src="//main-cdn.grabone.co.nz/goimage/325x225/79c7d73a5278389c39caf4455e7cad69a2788ba6.jpg"
                 />
                 <Card.Body>
                   <Card.Title>

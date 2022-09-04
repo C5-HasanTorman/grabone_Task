@@ -8,9 +8,9 @@ import Card from "react-bootstrap/Card";
 const Automotive = () => {
   return (
     <div className="container automotive-con">
-    <section className="deal-sec">
+      <section className="deal-sec">
         <header className="deal-head">
-          <h2 className="deal-title">Featured Auckland deals </h2>
+          <h2 className="deal-title">Automotive </h2>
           <Button variant="info" className="deal-btn">
             <span>View More</span>
             <i class="bi bi-chevron-right"></i>
@@ -23,7 +23,7 @@ const Automotive = () => {
               <Card className="deal-gri">
                 <Card.Img
                   variant="top"
-                  src="//main-cdn.grabone.co.nz/goimage/325x225/3b8812ae5f8d38f9b3ae3ade3b525c9c6a70897a.jpg"
+                  src="//main-cdn.grabone.co.nz/goimage/325x225/efc3d8f120a5de7862bc62cfa837745b09d31beb.jpg"
                   alt="One-Hour Pool Table Game incl. Two Cans of Soft Drink or Two Heineken 0% "
                 />
                 <Card.Body>
@@ -68,7 +68,7 @@ const Automotive = () => {
                 <Card.Img
                   variant="top"
                   alt="Luxury Five-Star Auckland Stay for Two at Cordis Auckland incl. Buffet Breakfast, $50 Food & Beverage Credit, Drinks, Pool & Spa Access, Daily Parking & Late Checkout - Options to Stay in the Pinnacle Tower & Up to Three Nights with $150 Credit"
-                  src="//main-cdn.grabone.co.nz/goimage/325x225/aeb84584eaa6c41eed7337bd45f4ad22e01cdf99.jpg"
+                  src="//main-cdn.grabone.co.nz/goimage/325x225/014a2ab9b2b3c015090f955caf2839a526bbc2c3.jpg"
                 />
                 <Card.Body>
                   <Card.Title>
@@ -111,7 +111,7 @@ const Automotive = () => {
                 <Card.Img
                   variant="top"
                   alt="Two-Person Boutique Dining & Movie Package incl. Tickets, Pizza, Two Choc Top Ice Creams & Two Glasses of Prosecco, Wine or Beer - Options for up to Eight People"
-                  src="//main-cdn.grabone.co.nz/goimage/325x225/45a3bffce1d7d6e2269b487ccec9fd42807c16da.jpg"
+                  src="//main-cdn.grabone.co.nz/goimage/325x225/13cc0c5181f1533d54956a32bb733e2792b18cf6.jpg"
                 />
                 <Card.Body>
                   <Card.Title>
@@ -154,7 +154,7 @@ const Automotive = () => {
                 <Card.Img
                   variant="top"
                   alt="One-Hour Axe Throwing Experience - Option for up to Four People"
-                  src="//main-cdn.grabone.co.nz/goimage/325x225/dff22c3d041e983df8f0a3224d4b2e2698674882.png"
+                  src="//main-cdn.grabone.co.nz/goimage/325x225/654fddff040fb7631293be6497a3c74bb4fb42ac.jpg"
                 />
                 <Card.Body>
                   <Card.Title>

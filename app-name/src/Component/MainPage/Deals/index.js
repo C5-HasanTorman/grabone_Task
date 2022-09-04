@@ -21,17 +21,11 @@ const Deals = () => {
             <Col className="product">
               {" "}
               <Card className="deal-gri">
-                {/* <a href="/beauty-massage-spa/hair-straightening-curling/p/vivo-hair-and-skin-clinic-349"> */}
-                <figure>
-                  <Card.Img
-                    className="img-hover"
-                    variant="top"
-                    src="//main-cdn.grabone.co.nz/goimage/325x225/dfcf94ebb30d8e74723c0d8bc6c0ba815dcaeed5.jpg "
-                  />
-                  <figcaption style={{ position: "relative", zIndex: "1" }}>
-                    <p>csdscfdsffd</p>
-                  </figcaption>
-                </figure>
+                <Card.Img
+                  className="img-hover"
+                  variant="top"
+                  src="//main-cdn.grabone.co.nz/goimage/325x225/dfcf94ebb30d8e74723c0d8bc6c0ba815dcaeed5.jpg "
+                />
                 <Card.Body>
                   <Card.Title>
                     <header className="top-card">
@@ -66,7 +60,6 @@ const Deals = () => {
                     </footer>
                   </Card.Text>
                 </Card.Body>
-                {/* </a> */}
               </Card>
             </Col>
             <Col className="product">
@@ -75,7 +68,7 @@ const Deals = () => {
                 <Card.Img
                   variant="top"
                   alt="Luxury Five-Star Auckland Stay for Two at Cordis Auckland incl. Buffet Breakfast, $50 Food & Beverage Credit, Drinks, Pool & Spa Access, Daily Parking & Late Checkout - Options to Stay in the Pinnacle Tower & Up to Three Nights with $150 Credit"
-                  src="//main-cdn.grabone.co.nz/goimage/325x225/63b7eb1e3b90fd87c7d876b29810cb58d478226c.jpg"
+                  src="//main-cdn.grabone.co.nz/goimage/325x225/384a963932ad1eae27aa16e7f54b06e90cae3d44.jpg"
                 />
                 <Card.Body>
                   <Card.Title>
@@ -161,7 +154,7 @@ const Deals = () => {
                 <Card.Img
                   variant="top"
                   alt="One-Hour Axe Throwing Experience - Option for up to Four People"
-                  src="//main-cdn.grabone.co.nz/goimage/325x225/dff22c3d041e983df8f0a3224d4b2e2698674882.png"
+                  src="//main-cdn.grabone.co.nz/goimage/325x225/4e878fd70b0766c99669fc3e1a510a30a75827ca.jpg"
                 />
                 <Card.Body>
                   <Card.Title>
@@ -205,7 +198,7 @@ const Deals = () => {
                 <Card.Img
                   variant="top"
                   alt="Luxury Five-Star Auckland Stay for Two at Cordis Auckland incl. Buffet Breakfast, $50 Food & Beverage Credit, Drinks, Pool & Spa Access, Daily Parking & Late Checkout - Options to Stay in the Pinnacle Tower & Up to Three Nights with $150 Credit"
-                  src="//main-cdn.grabone.co.nz/goimage/325x225/63b7eb1e3b90fd87c7d876b29810cb58d478226c.jpg"
+                  src="//main-cdn.grabone.co.nz/goimage/325x225/62eb86730ba65ee45c1d77b863f876308ca5df8d.jpg"
                 />
                 <Card.Body>
                   <Card.Title>

@@ -86,9 +86,6 @@ aside {
   border-bottom: 1px solid rgb(212, 208, 208);
 }
 
-.link-img:hover {
-  background: linear-gradient(rgba(1, 178, 238, 0.9), rgba(1, 178, 238, 0.9));
-}
 .link-img {
   text-decoration: none;
 }
