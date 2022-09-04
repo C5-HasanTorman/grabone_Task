@@ -11,6 +11,7 @@ import Store from "./Component/MainPage/Store";
 import Restaurants from "./Component/MainPage/Restaurants";
 import Beauty from "./Component/MainPage/Beauty";
 import House from "./Component/MainPage/House";
+import Fitness from "./Component/MainPage/Fitness";
 import Footer from "./Component/Footer";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <Restaurants/>
       <Beauty/>
       <House/>
+      <Fitness/>
       <Footer/>
     </div>
   );
