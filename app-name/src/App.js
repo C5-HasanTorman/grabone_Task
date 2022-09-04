@@ -8,7 +8,11 @@ import Collections from "./Component/MainPage/Collections";
 import Escapes from "./Component/MainPage/Escapes";
 import Activities from "./Component/MainPage/Activities";
 import Store from "./Component/MainPage/Store";
+import Restaurants from "./Component/MainPage/Restaurants";
+import Beauty from "./Component/MainPage/Beauty";
+import House from "./Component/MainPage/House";
 import Footer from "./Component/Footer";
+
 function App() {
   return (
     <div class="container-fluid App">
@@ -21,6 +25,9 @@ function App() {
       <Escapes />
       <Activities />
       <Store/>
+      <Restaurants/>
+      <Beauty/>
+      <House/>
       <Footer/>
     </div>
   );

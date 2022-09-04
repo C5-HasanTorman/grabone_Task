@@ -20,23 +20,33 @@
   margin-top: 15px;
 }
 .head-footer {
+  display: flex;
+  align-items: baseline;
   margin-left: 16px;
 }
-.copyright{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    padding-top: 10px;
-    border-top: 1px solid #aaa ;
-    height: 70px;
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid #aaa;
+  height: 70px;
 }
-.Privacy{
-    text-decoration: none;
-
+.send-footer {
+  border-top: 1px solid rgb(212, 208, 208);
+  padding-top: 10px;
 }
-.copyright-space{
-    display: flex;
-    gap: 12px;
-
+.message{
+  margin: 0;
+}
+.message-text{
+  margin-top: 5px;
+}
+.Privacy {
+  text-decoration: none;
+}
+.copyright-space {
+  display: flex;
+  gap: 12px;
 }

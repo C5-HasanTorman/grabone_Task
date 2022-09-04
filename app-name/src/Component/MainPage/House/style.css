@@ -1,0 +1,17 @@
+.house-con {
+    margin-top: 60px;
+  }
+  
+  @media only screen and (max-width: 1160px) {
+    .deal-grid {
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
+  }
+  @media only screen and (max-width: 650) {
+    .deal-grid {
+      display: flex;
+      flex-direction: column;
+    }
+
+  }

@@ -5,12 +5,12 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 
-const Activities = () => {
+const Restaurants = () => {
   return (
-    <div className="container activities-con">
+    <div className="container restaurants-con">
       <section className="deal-sec">
         <header className="deal-head">
-          <h2 className="deal-title">Activities, Events & Outdoors </h2>
+          <h2 className="deal-title">Restaurants, Bars, Cafes </h2>
           <Button variant="info" className="deal-btn">
             <span>View More</span>
             <i class="bi bi-chevron-right"></i>{" "}
@@ -23,7 +23,7 @@ const Activities = () => {
               <Card className="deal-grid">
                 <Card.Img
                   variant="top"
-                  src="//main-cdn.grabone.co.nz/goimage/325x225/b66b8a3e8a52670f98b8621b66b3211ebcce3288.jpg"
+                  src="//main-cdn.grabone.co.nz/goimage/325x225/4a3b946a764b874bd63c5daf4c8658bc4eec69c4.jpg"
                 />
           <Card.Body>
                   <Card.Title>
@@ -50,7 +50,7 @@ const Activities = () => {
               <Card className="deal-grid">
                 <Card.Img
                   variant="top"
-                  src="//main-cdn.grabone.co.nz/goimage/325x225/554a1998a3b97741a5afc8e3d6a4204eba9d9fee.jpg"
+                  src="//main-cdn.grabone.co.nz/goimage/325x225/326577d6bf9ecafb75a55c981e195f9d27bc5deb.jpg"
                 />
               <Card.Body>
                   <Card.Title>
@@ -76,9 +76,9 @@ const Activities = () => {
               <Card className="deal-grid">
                 <Card.Img
                   variant="top"
-                  src="//main-cdn.grabone.co.nz/goimage/325x225/6d597e49c147557c261cc5bbfd877a53959995dc.jpg"
+                  src="//main-cdn.grabone.co.nz/goimage/325x225/b6f8982738fae0179e711a21b2d6fe6f39c44439.jpg"
                 />
-                <Card.Body>
+                  <Card.Body>
                   <Card.Title>
                     <header className="top-card">
                       <h5 class="card-text">BasicCare 35-point Service</h5>
@@ -102,9 +102,9 @@ const Activities = () => {
               <Card className="deal-grid">
                 <Card.Img
                   variant="top"
-                  src="//main-cdn.grabone.co.nz/goimage/325x225/da7eef7857dfcf90e6cdea7c043b79c1ce208e34.jpg"
+                  src="//main-cdn.grabone.co.nz/goimage/325x225/d78d4bff7e79786fea3f2f75727cabe38051ffda.jpg"
                 />
-                   <Card.Body>
+                <Card.Body>
                   <Card.Title>
                     <header className="top-card">
                       <h5 class="card-text">BasicCare 35-point Service</h5>
@@ -131,4 +131,4 @@ const Activities = () => {
   );
 };
 
-export default Activities;
+export default Restaurants;

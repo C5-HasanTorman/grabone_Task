@@ -79,8 +79,8 @@ const Footer = () => {
                 </Nav>
               </Col>
               <Col className="send-footer">
-                <h6 className="head-footer">Newsletter Signup</h6>
-                <p>
+                <h6 className="head-footer message">Newsletter Signup</h6>
+                <p className="message-text">
                   Sign up for our daily emails and we'll send you all the best
                   deals, tailored for you.
                 </p>

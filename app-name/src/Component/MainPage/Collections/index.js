@@ -27,10 +27,21 @@ const Collections = () => {
                   alt="One-Hour Pool Table Game incl. Two Cans of Soft Drink or Two Heineken 0% "
                 />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>
+                    <header className="top-card">
+                      <h5 class="card-text">BasicCare 35-point Service</h5>
+                      <p>
+                        <span className="name-Stores">
+                          Honda Stores Auckland
+                        </span>
+                      </p>
+                    </header>
+                  </Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    <footer className="bottom-card">
+                      <p className="from-word">from</p>
+                      <span className="price"> $195</span>
+                    </footer>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -43,10 +54,21 @@ const Collections = () => {
                   src="https://mediacdn.grabone.co.nz/asset/liiWFoJ80j"
                 />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>
+                    <header className="top-card">
+                      <h5 class="card-text">BasicCare 35-point Service</h5>
+                      <p>
+                        <span className="name-Stores">
+                          Honda Stores Auckland
+                        </span>
+                      </p>
+                    </header>
+                  </Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    <footer className="bottom-card">
+                      <p className="from-word">from</p>
+                      <span className="price"> $195</span>
+                    </footer>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -58,10 +80,21 @@ const Collections = () => {
                   src="https://mediacdn.grabone.co.nz/asset/WmNCBypjGB"
                 />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>
+                    <header className="top-card">
+                      <h5 class="card-text">BasicCare 35-point Service</h5>
+                      <p>
+                        <span className="name-Stores">
+                          Honda Stores Auckland
+                        </span>
+                      </p>
+                    </header>
+                  </Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    <footer className="bottom-card">
+                      <p className="from-word">from</p>
+                      <span className="price"> $195</span>
+                    </footer>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -73,10 +106,21 @@ const Collections = () => {
                   src="https://mediacdn.grabone.co.nz/asset/DKqrqrT4pw"
                 />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>
+                    <header className="top-card">
+                      <h5 class="card-text">BasicCare 35-point Service</h5>
+                      <p>
+                        <span className="name-Stores">
+                          Honda Stores Auckland
+                        </span>
+                      </p>
+                    </header>
+                  </Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    <footer className="bottom-card">
+                      <p className="from-word">from</p>
+                      <span className="price"> $195</span>
+                    </footer>
                   </Card.Text>
                 </Card.Body>
               </Card>
