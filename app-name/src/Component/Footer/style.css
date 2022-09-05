@@ -67,6 +67,9 @@
 .icons-so{
   color: #4f5864;
 }
+.icons-so:hover{
+  color: #1eb3ec;;
+}
 .bi{
   font-size: 22px;
 

@@ -164,22 +164,20 @@ const MainTop = () => {
                         <figcaption>
                           <p>
                             {" "}
-                            Three-Night Bali Getaway in a One Bedroom, Pool
-                            Villa for Two People at Maharaja Villas & Spa inc.
-                            Daily Breakfast, Lunch & Dinner, Transfer, Zahra
-                            Spa, Welcome Tropical Fruit Basket & More - Optio...
+                            Three-Night Bali Getaway in a One Bedroom, Pool Villa for Two People at Maharaja Villas & Spa inc. Daily Breakfast, Lunch & Dinner, Transfer, Zahra Spa, Welcome Tropical Fruit Basket & More - Optio...
+
                           </p>
                         </figcaption>
                       </figure>
 
                       <div class="card-body">
                         <header className="top-card">
-                          <h5 class="card-text">BasicCare 35-point Service</h5>
+                          <h5 class="card-text">Three-Night Bali Getaway in a Pool </h5>
                           <div className="text-cont">
                             <p>
                               {" "}
                               <span className="name-Stores">
-                                Honda Stores Auckland
+                              Maharaja Villas and Spa - Seminyak
                               </span>
                             </p>
 
@@ -191,12 +189,12 @@ const MainTop = () => {
                         </header>
                         <footer className="bottom-card">
                           <div className="text-end">
-                            <span className="name-ops">6 bought</span>
+                            <span className="name-ops">5 bought</span>
                           </div>
                           <div className="text-right">
                             <p className="from-word">from</p>
                             <div>
-                              <span className="name-ops line-th">$99</span>
+                              <span className="name-ops line-th">$600</span>
                               <span className="price"> $195</span>
                             </div>
                           </div>

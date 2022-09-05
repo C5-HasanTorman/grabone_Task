@@ -28,25 +28,30 @@ const Deals = () => {
                     alt="One-Hour Pool Table Game incl. Two Cans of Soft Drink or Two Heineken 0% "
                   />
                   <figcaption>
-                    <p> 2M Golf Cage Tent - Two Colours Available</p>
+                    <p>
+                      {" "}
+                      Two-Person Boutique Dining & Movie Package incl. Tickets,
+                      Pizza, Two Choc Top Ice Creams & Two Glasses of Prosecco,
+                      Wine or Beer - Options for up to Eight People
+                    </p>
                   </figcaption>
                 </figure>
 
                 <Card.Body>
                   <Card.Title>
                     <header className="top-card">
-                      <h5 class="card-text">HIFU Treatment Package</h5>
+                      <h5 class="card-text">Boutique Dining </h5>
                       <div className="text-cont">
                         <p>
                           {" "}
                           <span className="name-Stores">
-                            Honda Stores Auckland
+                            Monterey Cinemas Takapuna
                           </span>
                         </p>
 
                         <p>
                           {" "}
-                          <span className="name-ops ">Auckland </span>
+                          <span className="name-ops ">Takapuna </span>
                         </p>
                       </div>
                     </header>
@@ -54,12 +59,12 @@ const Deals = () => {
                   <Card.Text>
                     <footer className="bottom-card">
                       <div className="text-end">
-                        <span className="name-ops">6 bought</span>
+                        <span className="name-ops">364 bought</span>
                       </div>
                       <div className="text-right">
                         <p className="from-word">from</p>
                         <div>
-                          <span className="name-ops line-th">$99</span>
+                          <span className="name-ops line-th">$49</span>
                           <span className="price"> $195</span>
                         </div>
                       </div>
@@ -78,25 +83,30 @@ const Deals = () => {
                     src="//main-cdn.grabone.co.nz/goimage/325x225/384a963932ad1eae27aa16e7f54b06e90cae3d44.jpg"
                   />
                   <figcaption>
-                    <p> 2M Golf Cage Tent - Two Colours Available</p>
+                    <p>
+                      Matariki Deal – One-Night Auckland CBD Stay for Two in a
+                      Superior Room at Mercure Hotel Queen Street incl. Early
+                      Check-In, Late Checkout, & Bottle of Bubbles – Options for
+                      Two Nights, Midweek or We...
+                    </p>
                   </figcaption>
                 </figure>
 
                 <Card.Body>
                   <Card.Title>
                     <header className="top-card">
-                      <h5 class="card-text">HIFU Treatment Package</h5>
+                      <h5 class="card-text">4-Star CBD Auckland </h5>
                       <div className="text-cont">
                         <p>
                           {" "}
                           <span className="name-Stores">
-                            Honda Stores Auckland
+                            Mercure Hotel Queen Street{" "}
                           </span>
                         </p>
 
                         <p>
                           {" "}
-                          <span className="name-ops">Auckland </span>
+                          <span className="name-ops">Auckland Central </span>
                         </p>
                       </div>
                     </header>
@@ -104,12 +114,12 @@ const Deals = () => {
                   <Card.Text>
                     <footer className="bottom-card">
                       <div className="text-end">
-                        <span className="name-ops">6 bought</span>
+                        <span className="name-ops">249 bought</span>
                       </div>
                       <div className="text-right">
                         <p className="from-word">from</p>
                         <div>
-                          <span className="name-ops line-th">$99</span>
+                          <span className="name-ops line-th">$179</span>
                           <span className="price"> $195</span>
                         </div>
                       </div>
