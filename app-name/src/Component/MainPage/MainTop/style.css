@@ -34,7 +34,7 @@ figure {
   overflow: hidden;
   position: relative;
   text-align: center;
-  cursor: default;
+  cursor: pointer;
 }
 figcaption {
   display: flex;
