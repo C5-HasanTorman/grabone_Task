@@ -84,7 +84,7 @@ const Footer = () => {
                   Sign up for our daily emails and we'll send you all the best
                   deals, tailored for you.
                 </p>
-                <InputGroup className="mb-3">
+                <InputGroup className="mb-3 sn-2">
                 <i class="bi bi-envelope em"></i>
                   <Form.Control
                     placeholder="Enter email address"

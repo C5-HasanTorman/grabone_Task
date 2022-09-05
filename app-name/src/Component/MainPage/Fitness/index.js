@@ -21,11 +21,17 @@ const Fitness = () => {
             <Col className="product">
               {" "}
               <Card className="deal-gri">
-                <Card.Img
-                  variant="top"
-                  src="//main-cdn.grabone.co.nz/goimage/325x225/b1506e677d74b4e4dd4947107080687f1f00f182.jpg"
-                  alt="One-Hour Pool Table Game incl. Two Cans of Soft Drink or Two Heineken 0% "
-                />
+                <figure>
+                  <Card.Img
+                    variant="top"
+                    src="//main-cdn.grabone.co.nz/goimage/325x225/b1506e677d74b4e4dd4947107080687f1f00f182.jpg"
+                    alt="One-Hour Pool Table Game incl. Two Cans of Soft Drink or Two Heineken 0% "
+                  />
+                  <figcaption>
+                    <p> 2M Golf Cage Tent - Two Colours Available</p>
+                  </figcaption>
+                </figure>
+
                 <Card.Body>
                   <Card.Title>
                     <header className="top-card">
@@ -65,11 +71,17 @@ const Fitness = () => {
             <Col className="product">
               {" "}
               <Card className="deal-gri">
-                <Card.Img
-                  variant="top"
-                  alt="Luxury Five-Star Auckland Stay for Two at Cordis Auckland incl. Buffet Breakfast, $50 Food & Beverage Credit, Drinks, Pool & Spa Access, Daily Parking & Late Checkout - Options to Stay in the Pinnacle Tower & Up to Three Nights with $150 Credit"
-                  src="//main-cdn.grabone.co.nz/goimage/325x225/d662b3efa165fa1b4627d1faee7aedbc89d6ce2b.jpg"
-                />
+                <figure>
+                  <Card.Img
+                    variant="top"
+                    alt="Luxury Five-Star Auckland Stay for Two at Cordis Auckland incl. Buffet Breakfast, $50 Food & Beverage Credit, Drinks, Pool & Spa Access, Daily Parking & Late Checkout - Options to Stay in the Pinnacle Tower & Up to Three Nights with $150 Credit"
+                    src="//main-cdn.grabone.co.nz/goimage/325x225/d662b3efa165fa1b4627d1faee7aedbc89d6ce2b.jpg"
+                  />
+                  <figcaption>
+                    <p> 2M Golf Cage Tent - Two Colours Available</p>
+                  </figcaption>
+                </figure>
+
                 <Card.Body>
                   <Card.Title>
                     <header className="top-card">
@@ -108,11 +120,17 @@ const Fitness = () => {
             </Col>
             <Col className="product">
               <Card className="deal-gri">
-                <Card.Img
-                  variant="top"
-                  alt="Two-Person Boutique Dining & Movie Package incl. Tickets, Pizza, Two Choc Top Ice Creams & Two Glasses of Prosecco, Wine or Beer - Options for up to Eight People"
-                  src="//main-cdn.grabone.co.nz/goimage/325x225/68834b39de2e425422e5bc39dcd57b5ecdefa849.jpg"
-                />
+                <figure>
+                  <Card.Img
+                    variant="top"
+                    alt="Two-Person Boutique Dining & Movie Package incl. Tickets, Pizza, Two Choc Top Ice Creams & Two Glasses of Prosecco, Wine or Beer - Options for up to Eight People"
+                    src="//main-cdn.grabone.co.nz/goimage/325x225/68834b39de2e425422e5bc39dcd57b5ecdefa849.jpg"
+                  />
+                  <figcaption>
+                    <p> 2M Golf Cage Tent - Two Colours Available</p>
+                  </figcaption>
+                </figure>
+
                 <Card.Body>
                   <Card.Title>
                     <header className="top-card">
@@ -151,11 +169,17 @@ const Fitness = () => {
             </Col>
             <Col className="product">
               <Card className="deal-gri">
-                <Card.Img
-                  variant="top"
-                  alt="One-Hour Axe Throwing Experience - Option for up to Four People"
-                  src="//main-cdn.grabone.co.nz/goimage/325x225/efc3d8f120a5de7862bc62cfa837745b09d31beb.jpg"
-                />
+                <figure>
+                  <Card.Img
+                    variant="top"
+                    alt="One-Hour Axe Throwing Experience - Option for up to Four People"
+                    src="//main-cdn.grabone.co.nz/goimage/325x225/efc3d8f120a5de7862bc62cfa837745b09d31beb.jpg"
+                  />
+                  <figcaption>
+                    <p> 2M Golf Cage Tent - Two Colours Available</p>
+                  </figcaption>
+                </figure>
+
                 <Card.Body>
                   <Card.Title>
                     <header className="top-card">

@@ -155,11 +155,23 @@ const MainTop = () => {
                       className="link-img"
                       href="/activities-events-outdoors/movies/p/monterey-cinemas-takapuna-22"
                     >
-                      <img
-                        src="//main-cdn.grabone.co.nz/goimage/495x343/aeb84584eaa6c41eed7337bd45f4ad22e01cdf99.jpg"
-                        alt="..."
-                        class="card-img-top"
-                      />
+                      <figure>
+                        <img
+                          src="//main-cdn.grabone.co.nz/goimage/495x343/aeb84584eaa6c41eed7337bd45f4ad22e01cdf99.jpg"
+                          class="card-img-top high"
+                          alt="..."
+                        />
+                        <figcaption>
+                          <p>
+                            {" "}
+                            Three-Night Bali Getaway in a One Bedroom, Pool
+                            Villa for Two People at Maharaja Villas & Spa inc.
+                            Daily Breakfast, Lunch & Dinner, Transfer, Zahra
+                            Spa, Welcome Tropical Fruit Basket & More - Optio...
+                          </p>
+                        </figcaption>
+                      </figure>
+
                       <div class="card-body">
                         <header className="top-card">
                           <h5 class="card-text">BasicCare 35-point Service</h5>
@@ -204,11 +216,22 @@ const MainTop = () => {
                       className="link-img"
                       href="/activities-events-outdoors/movies/p/monterey-cinemas-takapuna-22"
                     >
-                      <img
-                        src="//main-cdn.grabone.co.nz/goimage/495x343/ef1b7c64a62bb398468591237772ddfb235aafc5.jpg"
-                        class="card-img-top"
-                        alt="..."
-                      />
+                      <figure>
+                        <img
+                          src="//main-cdn.grabone.co.nz/goimage/495x343/ef1b7c64a62bb398468591237772ddfb235aafc5.jpg"
+                          class="card-img-top high"
+                          alt="..."
+                        />
+                        <figcaption>
+                          <p>
+                            {" "}
+                            Luxury Five-Star Auckland Stay for Two at Cordis
+                            Auckland incl. Buffet Breakfast, $50 Food & Beverage
+                            Credit, Drinks, Pool & Spa Access, Daily Parking &
+                            Late Checkout - Options to Stay in the Pinna...
+                          </p>
+                        </figcaption>
+                      </figure>
                       <div class="card-body">
                         <header className="top-card">
                           <h5 class="card-text">BasicCare 35-point Service</h5>

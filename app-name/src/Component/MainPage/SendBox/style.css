@@ -7,17 +7,22 @@
 .title-send {
   color: #01b2ee;
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 22px;
 }
 .inner-con {
   display: flex;
   width: 100%;
+  align-items: center;
 }
-.mb-3 {
-  width: 80%;
+.sn-1 {
+  display: flex;
+  border: 1px solid #dce3ed;
+  padding-left: 10px;
+  width: 50%;
+  margin-top: 13px;
 }
 .head-send {
-  width: 75%;
+  width: 50%;
 }
 #button-addon2 {
   background-color: #01b2ee;

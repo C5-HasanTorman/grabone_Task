@@ -13,7 +13,9 @@ const SendBox = () => {
             Get the best deals delivered direct to your inbox each day
           </span>
         </header>
-        <InputGroup className="mb-3">
+        <InputGroup className="mb-3 sn-1">
+          <i class="bi bi-envelope em"></i>
+
           <Form.Control
             placeholder="Enter email address"
             aria-label="Recipient's username"

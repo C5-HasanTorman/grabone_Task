@@ -21,11 +21,17 @@ const Collections = () => {
             <Col className="product">
               {" "}
               <Card className="deal-gri">
-                <Card.Img
-                  variant="top"
-                  src="https://mediacdn.grabone.co.nz/asset/i78WKOX1hA"
-                  alt="One-Hour Pool Table Game incl. Two Cans of Soft Drink or Two Heineken 0% "
-                />
+                <figure>
+                  <Card.Img
+                    variant="top"
+                    src="https://mediacdn.grabone.co.nz/asset/i78WKOX1hA"
+                    alt="One-Hour Pool Table Game incl. Two Cans of Soft Drink or Two Heineken 0% "
+                  />
+                  <figcaption>
+                    <p> 2M Golf Cage Tent - Two Colours Available</p>
+                  </figcaption>
+                </figure>
+
                 <Card.Body>
                   <Card.Title>
                     <header className="top-card">
@@ -65,11 +71,17 @@ const Collections = () => {
             <Col className="product">
               {" "}
               <Card className="deal-gri">
-                <Card.Img
-                  variant="top"
-                  alt="Luxury Five-Star Auckland Stay for Two at Cordis Auckland incl. Buffet Breakfast, $50 Food & Beverage Credit, Drinks, Pool & Spa Access, Daily Parking & Late Checkout - Options to Stay in the Pinnacle Tower & Up to Three Nights with $150 Credit"
-                  src="https://mediacdn.grabone.co.nz/asset/liiWFoJ80j"
-                />
+                <figure>
+                  <Card.Img
+                    variant="top"
+                    alt="Luxury Five-Star Auckland Stay for Two at Cordis Auckland incl. Buffet Breakfast, $50 Food & Beverage Credit, Drinks, Pool & Spa Access, Daily Parking & Late Checkout - Options to Stay in the Pinnacle Tower & Up to Three Nights with $150 Credit"
+                    src="https://mediacdn.grabone.co.nz/asset/liiWFoJ80j"
+                  />
+                  <figcaption>
+                    <p> 2M Golf Cage Tent - Two Colours Available</p>
+                  </figcaption>
+                </figure>
+
                 <Card.Body>
                   <Card.Title>
                     <header className="top-card">
@@ -108,11 +120,17 @@ const Collections = () => {
             </Col>
             <Col className="product">
               <Card className="deal-gri">
-                <Card.Img
-                  variant="top"
-                  alt="Two-Person Boutique Dining & Movie Package incl. Tickets, Pizza, Two Choc Top Ice Creams & Two Glasses of Prosecco, Wine or Beer - Options for up to Eight People"
-                  src="https://mediacdn.grabone.co.nz/asset/WmNCBypjGB"
-                />
+                <figure>
+                  <Card.Img
+                    variant="top"
+                    alt="Two-Person Boutique Dining & Movie Package incl. Tickets, Pizza, Two Choc Top Ice Creams & Two Glasses of Prosecco, Wine or Beer - Options for up to Eight People"
+                    src="https://mediacdn.grabone.co.nz/asset/WmNCBypjGB"
+                  />
+                  <figcaption>
+                    <p> 2M Golf Cage Tent - Two Colours Available</p>
+                  </figcaption>
+                </figure>
+
                 <Card.Body>
                   <Card.Title>
                     <header className="top-card">
@@ -151,11 +169,17 @@ const Collections = () => {
             </Col>
             <Col className="product">
               <Card className="deal-gri">
-                <Card.Img
-                  variant="top"
-                  alt="One-Hour Axe Throwing Experience - Option for up to Four People"
-                  src="https://mediacdn.grabone.co.nz/asset/DKqrqrT4pw"
-                />
+                <figure>
+                  <Card.Img
+                    variant="top"
+                    alt="One-Hour Axe Throwing Experience - Option for up to Four People"
+                    src="https://mediacdn.grabone.co.nz/asset/DKqrqrT4pw"
+                  />
+                  <figcaption>
+                    <p> 2M Golf Cage Tent - Two Colours Available</p>
+                  </figcaption>
+                </figure>
+
                 <Card.Body>
                   <Card.Title>
                     <header className="top-card">
