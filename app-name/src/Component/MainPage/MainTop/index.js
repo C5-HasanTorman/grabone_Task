@@ -164,20 +164,24 @@ const MainTop = () => {
                         <figcaption>
                           <p>
                             {" "}
-                            Three-Night Bali Getaway in a One Bedroom, Pool Villa for Two People at Maharaja Villas & Spa inc. Daily Breakfast, Lunch & Dinner, Transfer, Zahra Spa, Welcome Tropical Fruit Basket & More - Optio...
-
+                            Three-Night Bali Getaway in a One Bedroom, Pool
+                            Villa for Two People at Maharaja Villas & Spa inc.
+                            Daily Breakfast, Lunch & Dinner, Transfer, Zahra
+                            Spa, Welcome Tropical Fruit Basket & More - Optio...
                           </p>
                         </figcaption>
                       </figure>
 
                       <div class="card-body">
                         <header className="top-card">
-                          <h5 class="card-text">Three-Night Bali Getaway in a Pool </h5>
+                          <h5 class="card-text">
+                            Three-Night Bali Getaway in a Pool{" "}
+                          </h5>
                           <div className="text-cont">
                             <p>
                               {" "}
                               <span className="name-Stores">
-                              Maharaja Villas and Spa - Seminyak
+                                Maharaja Villas and Spa - Seminyak
                               </span>
                             </p>
 

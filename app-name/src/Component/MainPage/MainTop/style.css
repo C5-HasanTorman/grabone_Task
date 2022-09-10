@@ -151,7 +151,7 @@ h5 {
   line-height: 9px;
 }
 
-@media only screen and (max-width: 1160px) {
+/* @media only screen and (max-width: 1160px) {
   aside {
     display: none;
   }
@@ -171,4 +171,4 @@ h5 {
     flex-direction: column;
     gap: 15px;
   }
-}
+} */

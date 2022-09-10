@@ -1,5 +1,7 @@
 import "./App.css";
-import Nav from "./Component/Nav";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import Navbarr from "./Component/Navbarr";
 import ImgHead from "./Component/ImgHead";
 import MainTop from "./Component/MainPage/MainTop";
 import SendBox from "./Component/MainPage/SendBox";
@@ -17,8 +19,8 @@ import Footer from "./Component/Footer";
 
 function App() {
   return (
-    <div class="container-fluid App">
-      <Nav />
+    <div class="App">
+      <Navbarr />
       <ImgHead />
       <MainTop />
       <SendBox />

@@ -18,7 +18,7 @@ const Deals = () => {
         </header>
         <article className="deal-card">
           <Row className="deal-grid">
-            <Col className="product">
+            <Col md="auto" className="product">
               {" "}
               <Card className="deal-gri">
                 <figure>
@@ -128,7 +128,7 @@ const Deals = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="product">
+            <Col md="auto" className="product">
               <Card className="deal-gri">
                 <figure>
                   <Card.Img
@@ -177,7 +177,7 @@ const Deals = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="product">
+            <Col md="auto" className="product">
               <Card className="deal-gri">
                 <figure>
                   <Card.Img
@@ -226,7 +226,7 @@ const Deals = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="product">
+            <Col md="auto" className="product">
               {" "}
               <Card className="deal-gri">
                 <figure>
@@ -276,7 +276,7 @@ const Deals = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="product">
+            <Col md="auto" className="product">
               {" "}
               <Card className="deal-gri">
                 <figure>
@@ -326,7 +326,7 @@ const Deals = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="product">
+            <Col md="auto" className="product">
               {" "}
               <Card className="deal-gri">
                 <figure>
@@ -376,7 +376,7 @@ const Deals = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="product">
+            <Col md="auto" className="product">
               {" "}
               <Card className="deal-gri">
                 <figure>

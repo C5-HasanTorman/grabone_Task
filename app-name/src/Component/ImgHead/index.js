@@ -5,7 +5,10 @@ const ImgHead = () => {
   return (
     <div className="container img-head">
       <a href="/<region>/c/spring-collection">
-        <img className="img-top" src="https://mediacdn.grabone.co.nz/asset/XZ6ZrWkz9d" />
+        <img
+          className="col-12 img-top"
+          src="https://mediacdn.grabone.co.nz/asset/XZ6ZrWkz9d"
+        />
       </a>
     </div>
   );
