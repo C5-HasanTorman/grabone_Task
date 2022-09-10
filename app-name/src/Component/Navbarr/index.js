@@ -4,9 +4,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Dropdown from "react-bootstrap/Dropdown";
-import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import NavDropdown from "react-bootstrap/NavDropdown";
 
 const Navbarr = () => {
   const [size, setSize] = useState(0);
