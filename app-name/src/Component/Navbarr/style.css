@@ -107,6 +107,13 @@
   display: flex;
   align-items: center;
   gap: 2px;
+  
+}
+.btn .btn-primary:focus{
+  box-shadow: none;
+  background-color: #f4f7fb;
+  color: #4f5864;
+
 }
 
 .dropdown-toggle::after {
@@ -116,4 +123,14 @@
 
 .bi-search {
   display: flex;
+}
+
+.nav-link{
+  align-items: center;
+  justify-content: center;
+  border: none;
+
+}
+.dropdown[aria-expanded="true"] {
+  box-shadow: none;
 }

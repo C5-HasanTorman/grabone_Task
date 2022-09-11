@@ -1,13 +1,12 @@
 import React from "react";
 import "./style.css";
-
 const MainTop = () => {
   return (
     <div className="container top-level">
       <section className="discver-mid">
         <div class="container-fluid">
-          <div class="main ">
-            <div class="colu-1">
+          <div class="main d-md-flex">
+            <div class="col-3 d-none d-lg-block">
               <aside>
                 <header className="title-top">Discover</header>
                 <ul class="nav flex-column">
@@ -146,7 +145,7 @@ const MainTop = () => {
                 </ul>
               </aside>{" "}
             </div>
-            <div class="colu-2 photo-1">
+            <div class="col-lg-4 col-md-6 photo-1">
               <article>
                 {" "}
                 <div class="col">
@@ -174,9 +173,7 @@ const MainTop = () => {
 
                       <div class="card-body">
                         <header className="top-card">
-                          <h5 class="card-text">
-                            Three-Night Bali Getaway in a Pool{" "}
-                          </h5>
+                          <h5 class="card-text">Three-Night Bali Getaway </h5>
                           <div className="text-cont">
                             <p>
                               {" "}
@@ -209,7 +206,7 @@ const MainTop = () => {
                 </div>
               </article>
             </div>
-            <div class="colu-3 photo-2">
+            <div class="col-lg-4 col-md-6 photo-2">
               <article>
                 {" "}
                 <div class="col">

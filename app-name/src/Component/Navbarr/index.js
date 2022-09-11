@@ -1,33 +1,23 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./style.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+
 import Dropdown from "react-bootstrap/Dropdown";
 import Form from "react-bootstrap/Form";
 
 const Navbarr = () => {
-  const [size, setSize] = useState(0);
-
-  const handleResize = () => {
-    setSize(window.innerWidth);
-  };
-
-  console.log(size);
-  useEffect(() => {
-    handleResize();
-  }, []);
-
   return (
-    <Container fluid className="p-0">
+    <Container fluid  className=" container-fluid p-0 " >
       <Navbar variant="dark" expand="lg" className="p-0 n1">
-        <Container className="cont-max">
+        <Container fluid="lg" className="cont-max">
           <Navbar.Brand className="title-head" href="#">
             GrabOne
           </Navbar.Brand>
-          <div className="cont-max">
+          <div className="pe-xl-5 pe-3 cont-max">
             <Nav className="me-auto my-2 my-lg-0">
-              <div className="nav-it">
+              <div className=" ms-xs-auto nav-it">
                 <Dropdown className="dropdown">
                   <Dropdown.Toggle className="btn-block">
                     <i class="bi bi-geo-alt"></i>
@@ -59,17 +49,17 @@ const Navbarr = () => {
                   </Dropdown.Menu>
                 </Dropdown>
               </div>
-              <div className=".d-block link-sec">
-                <Nav.Link href="#action2">
+              <div className="d-none d-lg-flex link-sec">
+                <Nav.Link className="d-flex" href="#action2">
                   {" "}
                   <i class="bi bi-heart heart "></i>
                 </Nav.Link>
 
-                <Nav.Link href="#action2">
+                <Nav.Link className="d-flex" href="#action2">
                   {" "}
                   <i class="bi bi-cart2 heart"></i>
                 </Nav.Link>
-                <Nav.Link href="#action2">
+                <Nav.Link className="d-flex" href="#action2">
                   <Dropdown className="dropdown">
                     <Dropdown.Toggle className="btn-block">
                       <i class="bi bi-person heart"></i>
@@ -95,7 +85,7 @@ const Navbarr = () => {
                   </Dropdown>
                 </Nav.Link>
 
-                <Nav.Link href="#action1">
+                <Nav.Link className="d-flex" href="#action1">
                   {" "}
                   <a
                     className="mail"
@@ -110,7 +100,7 @@ const Navbarr = () => {
           </div>
         </Container>
       </Navbar>
-      <Navbar expand="lg" className="n2">
+      <Navbar expand="lg" className="d-none d-lg-block n2">
         <Container>
           <Dropdown className="nav2-block">
             <Dropdown.Toggle>

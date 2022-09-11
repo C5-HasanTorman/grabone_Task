@@ -19,7 +19,7 @@ import Footer from "./Component/Footer";
 
 function App() {
   return (
-    <div class="App">
+    <div class="container-fluid ps-md-0 p-0 m-0 m-lg-0 App">
       <Navbarr />
       <ImgHead />
       <MainTop />
