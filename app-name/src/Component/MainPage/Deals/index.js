@@ -17,8 +17,8 @@ const Deals = () => {
           </Button>
         </header>
         <article className="deal-card">
-          <Row className="deal-grid">
-            <Col md="auto" className="product">
+          <Row className="d-md-flex deal-grid">
+            <Col md="6" lg={"3"} className="col-12 product">
               {" "}
               <Card className="deal-gri">
                 <figure>
@@ -73,7 +73,7 @@ const Deals = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="product">
+            <Col md="6" lg={"3"} className=" product">
               {" "}
               <Card className="deal-gri">
                 <figure>
@@ -128,7 +128,7 @@ const Deals = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col md="auto" className="product">
+            <Col md="6" lg={"3"} className="product">
               <Card className="deal-gri">
                 <figure>
                   <Card.Img
@@ -177,7 +177,7 @@ const Deals = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col md="auto" className="product">
+            <Col md="6" lg={"3"} className="product">
               <Card className="deal-gri">
                 <figure>
                   <Card.Img
@@ -226,7 +226,7 @@ const Deals = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col md="auto" className="product">
+            <Col md="6" lg={"3"} className="product">
               {" "}
               <Card className="deal-gri">
                 <figure>
@@ -276,7 +276,7 @@ const Deals = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col md="auto" className="product">
+            <Col md="6" lg={"3"} className="product">
               {" "}
               <Card className="deal-gri">
                 <figure>
@@ -326,7 +326,7 @@ const Deals = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col md="auto" className="product">
+            <Col md="6" lg={"3"} className="product">
               {" "}
               <Card className="deal-gri">
                 <figure>
@@ -376,7 +376,7 @@ const Deals = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col md="auto" className="product">
+            <Col md="6" lg={"3"} className="product">
               {" "}
               <Card className="deal-gri">
                 <figure>

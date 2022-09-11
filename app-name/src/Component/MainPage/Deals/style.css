@@ -30,15 +30,10 @@
   background-color: #01b2ee;
 }
 
-
 .deal-card {
   margin-top: 30px;
 }
 .deal-grid {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
   border: none;
   border-bottom: 0.5px solid rgb(212, 208, 208);
 }
-
-

@@ -17,8 +17,8 @@ const Fitness = () => {
           </Button>
         </header>
         <article className="deal-card">
-          <Row className="deal-grid">
-            <Col className="product">
+          <Row className="d-md-flex deal-grid">
+            <Col md="6" lg={"3"}  className="product">
               {" "}
               <Card className="deal-gri">
                 <figure>
@@ -68,7 +68,7 @@ const Fitness = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="product">
+            <Col md="6" lg={"3"}  className="product">
               {" "}
               <Card className="deal-gri">
                 <figure>
@@ -118,7 +118,7 @@ const Fitness = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="product">
+            <Col md="6" lg={"3"}  className="product">
               <Card className="deal-gri">
                 <figure>
                   <Card.Img
@@ -167,7 +167,7 @@ const Fitness = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="product">
+            <Col md="6" lg={"3"}  className="product">
               <Card className="deal-gri">
                 <figure>
                   <Card.Img

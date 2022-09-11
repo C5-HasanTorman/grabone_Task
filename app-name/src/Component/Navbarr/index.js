@@ -9,7 +9,7 @@ import Form from "react-bootstrap/Form";
 
 const Navbarr = () => {
   return (
-    <Container fluid  className=" container-fluid p-0 " >
+    <Container fluid className=" container-fluid p-0 ">
       <Navbar variant="dark" expand="lg" className="p-0 n1">
         <Container fluid="lg" className="cont-max">
           <Navbar.Brand className="title-head" href="#">
@@ -102,29 +102,17 @@ const Navbarr = () => {
       </Navbar>
       <Navbar expand="lg" className="d-none d-lg-block n2">
         <Container>
-          <Dropdown className="nav2-block">
-            <Dropdown.Toggle>
-              Browse Categories
-              <i class="bi bi-chevron-down categories"></i>
-            </Dropdown.Toggle>
-
-            <Dropdown.Menu>
-              <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-              <Dropdown.Item href="#/action-2">Waikato </Dropdown.Item>
-              <Dropdown.Item href="#/action-3">Wellington </Dropdown.Item>
-              <Dropdown.Item href="#/action-3">Northland </Dropdown.Item>
-              <Dropdown.Item href="#/action-3">
-                Manawatu - Wanganui{" "}
-              </Dropdown.Item>
-              <Dropdown.Item href="#/action-3"> Tauranga</Dropdown.Item>
-              <Dropdown.Item href="#/action-3">Rotorua - Taupo </Dropdown.Item>
-
-              <Dropdown.Item href="#/action-3">Invercargill </Dropdown.Item>
-            </Dropdown.Menu>
-          </Dropdown>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
-            <Nav className="me-auto my-2 my-lg-0" navbarScroll>
+            <Nav className="me-5 my-2 my-lg-0 " navbarScroll>
+              <Nav.Link
+                className="link-block btn-blc"
+                href="#action5"
+              >
+                Browse Categories
+                <i class="bi bi-chevron-down categories"></i>
+              </Nav.Link>
+
               <Nav.Link className="link-block" href="#action1">
                 What's New
               </Nav.Link>
